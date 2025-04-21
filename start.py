@@ -13,3 +13,6 @@ subprocess.run([venv_python, app_script])
 # Optional: Keep window open (only useful if double-clicked from Explorer)
 if sys.stdin.isatty():
     input("\nPress Enter to exit...")
+
+
+# this might be needed? pip install pillow (global installation, not local!)
